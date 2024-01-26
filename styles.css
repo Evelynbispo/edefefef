@@ -1,0 +1,86 @@
+
+body,
+h1,
+h2,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e4e708;
+    /* Cor de fundo geral */
+    color: #1056ec;
+    /* Cor do texto */
+}
+
+header {
+    background-color: #000000;
+    /* Rosa mais claro para o cabeçalho */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #83d616;
+    /* Roxo para o título principal */
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    /* Roxo para os links */
+}
+
+main {
+    padding: 20px;
+    background-color: #ee1010;
+    /* Cor de fundo para as seções */
+}
+
+section {
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    padding: 90px;
+    border-radius: 8px;
+    box-shadow: 0 9px 4px #fff;
+    /* Sombra suave */
+}
+
+footer {
+    background-color: #ffffff;
+    /* Roxo mais escuro para o rodapé */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.banner {
+    background-image: url("../img/evelyn.bispo.png");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
